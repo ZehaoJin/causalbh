@@ -4,3 +4,6 @@ lingam_0122.ipynb
 exact_posteriors/*
 Ben+SDSS.csv
 *.fits
+exact_posterior_half.py
+read_exact_posterior_half.ipynb
+cdt_func_test.ipynb
