@@ -7,3 +7,14 @@ Ben+SDSS.csv
 exact_posterior_half.py
 read_exact_posterior_half.ipynb
 cdt_func_test.ipynb
+output_ell/*
+output_len/*
+output_spr/*
+R_e_data_old/*
+R_h_data/*
+GFN_MECs/*
+causal_inference_0919.ipynb
+all_var*
+SMBH_Data_01_*
+SMBH_Data_02_*
+SMBH_Data_0911.csv
