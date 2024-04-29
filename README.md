@@ -9,7 +9,7 @@
 ### [6. Cite this work](#6-cite-this-work)
 
 ## 1. Installation
-### 1.1. clone this repository to your machine (make sure your machine has a GPU)
+### 1.1. clone this repository to your machine
 
     git clone git@github.com:ZehaoJin/causalbh.git
     
