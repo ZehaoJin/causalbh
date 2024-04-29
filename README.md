@@ -4,7 +4,7 @@
 ### [1. Installation](#1-installation-1)
 ### [2. Causal discovery with BGe exact posterior calculation](#2-causal-discovery-with-bge-exact-posterior-calculation-1)
 ### [3. Extensions: PC, FCI and DAG-GFN](#3-extensions-pc-fci-and-dag-gfn-1)
-### [4. Data: Black hole mass - galaxy property catalog](#4-data-black-hole---mass-galaxy-property-catalog-1)
+### [4. Data: Black hole mass - galaxy property catalog](#4-data-black-hole-mass---galaxy-property-catalog-1)
 ### [5. Reproduce paper plots](#5-reproduce-paper-plots-1)
 ### [6. Cite this work](#6-cite-this-work-1)
 
