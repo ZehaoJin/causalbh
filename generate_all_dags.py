@@ -54,8 +54,8 @@ if __name__ == '__main__':
     #from pathlib import Path
 
     #root = Path(os.getenv('SLURM_TMPDIR'))
-    folder = '/data/zj448/causalbh/exact_posteriors'
-    n = 7
+    folder = '/data/zj448/causal/exact_posteriors'
+    n = 4
 
 
     dags_compressed = all_dags_compressed(num_variables=n)

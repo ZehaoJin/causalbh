@@ -18,4 +18,14 @@ all_var*
 SMBH_Data_01_*
 SMBH_Data_02_*
 SMBH_Data_0911.csv
+SMBH_Data_0315_24v2.csv
 cdt_test.py
+SAMs_0329.ipynb
+SAMs_0401.ipynb
+plots/*
+R_e_data/*.h5
+R_e_data/sam_ell.csv
+R_e_data/sam_len.csv
+R_e_data/sam_spr.csv
+read_exact_posterior_6var.ipynb
+SMBH_Data_03_06_24.csv
