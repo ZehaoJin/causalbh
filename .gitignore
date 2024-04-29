@@ -29,3 +29,4 @@ R_e_data/sam_len.csv
 R_e_data/sam_spr.csv
 read_exact_posterior_6var.ipynb
 SMBH_Data_03_06_24.csv
+exact_posteriors.py
