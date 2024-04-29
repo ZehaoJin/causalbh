@@ -47,7 +47,7 @@ When the exact posterior approach is computationally infeasible (usually $n>7$),
 
 ## 4. Data: Black hole mass - galaxy property catalog
 - A master catalog that covers 145 SMBHs and more than 100 galaxy properties can be found in [SMBH_Data_03_15_24v2.csv](SMBH_Data_03_15_24v2.csv)
-- Sub-catalogs used in this work is sliced from the master catalog. These catalog can be found in this [folder](R_e_data). The main result of the paper comes from [causal_BH_ell.csv](R_e_data/causal_BH_ell.csv),[causal_BH_len.csv](R_e_data/causal_BH_len.csv), and [causal_BH_spr.csv](R_e_data/causal_BH_spr.csv).
+- Sub-catalogs used in this work is sliced from the master catalog. These catalog can be found in this [folder](R_e_data). The main result of the paper comes from [causal_BH_ell.csv](R_e_data/causal_BH_ell.csv), [causal_BH_len.csv](R_e_data/causal_BH_len.csv), and [causal_BH_spr.csv](R_e_data/causal_BH_spr.csv).
 
 ## 5. Reproduce paper plots
 - [marginals_base+distance.ipynb](marginals_base+distance.ipynb): main result, and distance as a possible confounder/
