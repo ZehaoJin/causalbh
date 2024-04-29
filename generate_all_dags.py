@@ -1,5 +1,3 @@
-# From @Tristan
-
 import numpy as np
 from tqdm import tqdm
 import math
@@ -55,7 +53,7 @@ if __name__ == '__main__':
 
     #root = Path(os.getenv('SLURM_TMPDIR'))
     folder = '/data/zj448/causal/exact_posteriors'
-    n = 4
+    n = 7
 
 
     dags_compressed = all_dags_compressed(num_variables=n)
