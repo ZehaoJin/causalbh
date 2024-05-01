@@ -38,7 +38,7 @@ exact posterior is not recommanded for number of nodes $n>7$, see [3. Extensions
 Follow [marginals.ipynb](marginals.ipynb) to calculate exact posteriors, and plot edge/path marginals
 
 ### 2.3 A CPU workaround
-We here also offer a CPU version to calculate the BGe scores in the case without access to a GPU. After generating all possible DAGs, use [cal_bge_cpu.py](cal_bge_cpu.py). This CPU approach method is fairly fast for $n\leq5$, but won't be practical for $n>7$.
+We here also offer a CPU version to calculate the BGe scores in the case without access to a GPU. After generating all possible DAGs, use [cal_bge_cpu.py](cal_bge_cpu.py). This CPU approach is fairly fast for $n\leq5$, but won't be practical for $n>7$. 
 
 
 ## 3. Extensions: PC, FCI and DAG-GFN
