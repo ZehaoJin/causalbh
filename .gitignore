@@ -22,11 +22,9 @@ SMBH_Data_0315_24v2.csv
 cdt_test.py
 SAMs_0329.ipynb
 SAMs_0401.ipynb
+SAMs_0507.ipynb
 plots/*
 R_e_data/*.h5
-R_e_data/sam_ell.csv
-R_e_data/sam_nofb.csv
-R_e_data/sam_spr.csv
 read_exact_posterior_6var.ipynb
 SMBH_Data_03_06_24.csv
 exact_posterior.py
