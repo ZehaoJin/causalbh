@@ -26,6 +26,13 @@ or
 - Install the GPU version of [jax](https://jax.readthedocs.io/en/latest/installation.html)
 - To visualize causal graphs, perform analysis around causal graphs, install [networkx](https://networkx.org/), [pygraphviz](https://pygraphviz.github.io/), and [causallearn](https://causal-learn.readthedocs.io/en/latest/)
 - some basic dependencies such as numpy, scipy, pandas, matplotlib, seaborn, tqdm
+- This repository has been tested on:
+        
+      python 3.12.2
+      jax 0.4.24
+      networkx 3.1
+      pygraphviz 1.12
+      causallearn 0.1.3.8
 
 
 ## 2. Causal discovery with BGe exact posterior calculation
