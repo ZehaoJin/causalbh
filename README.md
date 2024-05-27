@@ -60,7 +60,7 @@ When the exact posterior approach is computationally infeasible (usually $n>7$),
 - Sub-catalogs used in this work is sliced from the master catalog. These catalog can be found in this [folder](R_e_data). The main result of the paper comes from [causal_BH_ell.csv](R_e_data/causal_BH_ell.csv), [causal_BH_len.csv](R_e_data/causal_BH_len.csv), and [causal_BH_spr.csv](R_e_data/causal_BH_spr.csv).
 
 ## 5. Reproduce paper plots
-- [marginals_base+distance.ipynb](marginals_base+distance.ipynb): main result, and distance as a possible confounder/
+- [marginals_base+distance.ipynb](marginals_base+distance.ipynb): main result, and distance as a possible confounder
 - [marginals_SAM.ipynb](marginals_SAM.ipynb): Semi-analytical models
 - [marginals_stds.ipynb](marginals_stds.ipynb): random sampling from observation errors
 - [marginals_LOO.ipynb](marginals_LOO.ipynb): Leave-One-Out cross validation
