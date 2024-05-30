@@ -45,7 +45,7 @@ exact posterior is not recommanded for number of nodes $n>7$, see [3. Extensions
 Follow [marginals.ipynb](https://github.com/ZehaoJin/causalbh/blob/main/marginals.ipynb) to calculate exact posteriors, and plot edge/path marginals. It will take minutes ~ hours to run for $n$=7.
 
 ### 2.3 A CPU workaround
-We here also offer a CPU version to calculate the BGe scores in the case without access to a GPU. After generating all possible DAGs, use [cal_bge_cpu.py](cal_bge_cpu.py). This CPU approach is fairly fast for $n\leq5$, but won't be practical for $n>7$. 
+We here also offer a CPU version to calculate the BGe scores in the case without access to a GPU. After generating all possible DAGs, use [cal_bge_cpu.py](https://github.com/ZehaoJin/causalbh/blob/main/cal_bge_cpu.py). This CPU approach is fairly fast for $n\leq5$, but won't be practical for $n>7$. 
 
 
 ## 3. Extensions: PC, FCI and DAG-GFN
