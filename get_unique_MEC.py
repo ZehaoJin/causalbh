@@ -1,7 +1,8 @@
 import numpy as np
 import time
 
-MEC = np.load('/data/zj448/causal/exact_posteriors/MEC_7.npy')
+n = 7
+MEC = np.load(f'/data/zj448/causal/exact_posteriors/MEC_{n}.npy')
 #MEC = MEC[:10000, :, :]
 
 start_time = time.time()
@@ -11,9 +12,9 @@ execution_time = end_time - start_time
 print("Execution time:", execution_time, "seconds")
 
 
-np.save('/data/zj448/causal/exact_posteriors/unique_MECs_7.npy', unique_MECs)
-np.save('/data/zj448/causal/exact_posteriors/unique_MEC_index_7.npy', index)
-np.save('/data/zj448/causal/exact_posteriors/unique_MEC_counts_7.npy', counts)
+np.save(f'/data/zj448/causal/exact_posteriors/unique_MECs_{n}.npy', unique_MECs)
+np.save(f'/data/zj448/causal/exact_posteriors/unique_MEC_index_{n}.npy', index)
+np.save(f'/data/zj448/causal/exact_posteriors/unique_MEC_counts_{n}.npy', counts)
 
 
 
