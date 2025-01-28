@@ -1,6 +1,6 @@
 # Causalbh
 
-### [Paper: A data-driven discovery of the causal connection between galaxy and black hole evolution](https://ui.adsabs.harvard.edu/)
+### [Paper: A data-driven discovery of the causal connection between galaxy and black hole evolution](https://iopscience.iop.org/article/10.3847/1538-4357/ad9ded)
 ### [1. Installation](#1-installation-1)
 ### [2. Causal discovery with BGe exact posterior calculation](#2-causal-discovery-with-bge-exact-posterior-calculation-1)
 ### [3. Extensions: PC, FCI and DAG-GFN](#3-extensions-pc-fci-and-dag-gfn-1)
@@ -70,6 +70,18 @@ When the exact posterior approach is computationally infeasible (usually $n>7$),
 ## 6. Cite this work
 If you use this repository or would like to refer the paper, please use the following BibTeX entry:
 
-    @article{
-    }
+    @article{Jin_2025,
+            doi = {10.3847/1538-4357/ad9ded},
+            url = {https://dx.doi.org/10.3847/1538-4357/ad9ded},
+            year = {2025},
+            month = {jan},
+            publisher = {The American Astronomical Society},
+            volume = {979},
+            number = {2},
+            pages = {212},
+            author = {Jin, Zehao and Pasquato, Mario and Davis, Benjamin L. and Deleu, Tristan and Luo, Yu and Cho, Changhyun and Lemos, Pablo and Perreault-Levasseur, Laurence and Bengio, Yoshua and Kang, Xi and Macciò, Andrea Valerio and Hezaveh, Yashar},
+            title = {Causal Discovery in Astrophysics: Unraveling Supermassive Black Hole and Galaxy Coevolution},
+            journal = {The Astrophysical Journal},
+            abstract = {Correlation does not imply causation, but patterns of statistical association between variables can be exploited to infer a causal structure (even with purely observational data) with the burgeoning field of causal discovery. As a purely observational science, astrophysics has much to gain by exploiting these new methods. The supermassive black hole (SMBH)–galaxy interaction has long been constrained by observed scaling relations, which is low-scatter correlations between variables such as SMBH mass and the central velocity dispersion of stars in a host galaxy's bulge. This study, using advanced causal discovery techniques and an up-to-date data set, reveals a causal link between galaxy properties and dynamically measured SMBH masses. We apply a score-based Bayesian framework to compute the exact conditional probabilities of every causal structure that could possibly describe our galaxy sample. With the exact posterior distribution, we determine the most likely causal structures and notice a probable causal reversal when separating galaxies by morphology. In elliptical galaxies, bulge properties (built from major mergers) tend to influence SMBH growth, while, in spiral galaxies, SMBHs are seen to affect host galaxy properties, potentially through feedback in gas-rich environments. For spiral galaxies, SMBHs progressively quench star formation, whereas, in elliptical galaxies, quenching is complete, and the causal connection has reversed. Our findings support theoretical models of hierarchical assembly of galaxies and active galactic nuclei feedback regulating galaxy evolution. Our study suggests the potentiality for further exploration of causal links in astrophysical and cosmological scaling relations, as well as any other observational science.}
+            }
 
